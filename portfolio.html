@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+        /*color and text*/
+        body {
+            background-color: rgb(172, 225, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: black;
+            text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+            font-style: normal;
+        }
+
+        hr {
+            display: block;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            margin-left: 15%;
+            margin-right: 15%;
+            border-style: inset;
+            border-width: 1px;
+            border-top: 1px solid rgb(172, 225, 255);
+        }
+
+        /*buttons*/
+        .button {
+            border: none;
+            color: rgb(39, 100, 185);
+            padding: 10px 20px 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            background: none;
+        }
+
+        .button:hover {
+            text-decoration: underline;
+        }
+
+        /*div*/
+        div.main{
+            margin: auto;
+            top: -10px;
+            bottom: 100%;
+            height: 100%;
+            width: 70%;
+            background-color: white;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            position: relative;
+        }
+        
+        /*image gallery*/
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            flex-basis: 350px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .image-gallery > li {
+            height: 300px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .image-gallery li img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            vertical-align: middle;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Ezekiel Gabriel Eumague</h1>
+  
+        <button class="button button:hover" onclick="location.href='index.html'">Home</button>
+        <button class="button button:hover" onclick="location.href='portfolio.html'">My Portfolio</button>
+        <button class="button button:hover" onclick="location.href='about.html'">About Me</button>
+  
+        <hr>
+
+        <ul class="image-gallery">
+            <li>
+                <img src="assets/Clara Amberdy magic pose.png" alt="" />
+            </li>
+            
+            <li>
+                <img src="assets/Connor anticipation full body.png" alt="" />
+            </li>
+            
+            <li>
+                <img src="assets/Chi and Clara.png" alt="" />
+            </li>
+            
+            <li>
+                <img src="assets/Charisse sketch.png" alt="" />
+            </li>
+
+            <li>
+                <img src="assets/Charisse stare alt.png" alt="" />
+            </li>
+
+            <li>
+                <img src="assets/Amity disguised.png" alt="" />
+            </li>
+
+            <li>
+                <img src="assets/Hilda practice.png" alt="" />
+            </li>
+
+            <li>
+                <img src="assets/Hilda practice 2.png" alt="" />
+            </li>
+
+            <li>
+                <img src="assets/anne-and-sprig-end-card-wallpaper.png" alt="" />
+            </li>
+
+            <li>
+                <img src="assets/darcy-wallpaper.png" alt="" />
+            </li>
+
+            <li>
+                <img src="assets/hornet-wallpaper.png" alt="" />
+            </li>
+
+            <li>
+                <img src="assets/ram-and-rem-wallpaper.png" alt="" />
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>

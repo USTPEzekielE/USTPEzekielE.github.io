@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <style>
+        /*color and text*/
+        body {
+            background-color: rgb(172, 225, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: black;
+            text-align: center;
+        }
+
+        p {
+            font-size: 17px;
+            font-style: normal;
+            text-align: left;
+        }
+
+        hr {
+            display: block;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            margin-left: 15%;
+            margin-right: 15%;
+            border-style: inset;
+            border-width: 1px;
+            border-top: 1px solid rgb(172, 225, 255);
+        }
+
+        /*buttons*/
+        .button {
+            border: none;
+            color: rgb(39, 100, 185);
+            padding: 10px 20px 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            background: none;
+        }
+
+        .button:hover {
+            text-decoration: underline;
+        }
+        
+        /*image*/
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        }
+
+        /*div*/
+        div.main{
+            margin: auto;
+            top: -10px;
+            bottom: 100vh;
+            height: 100vh;
+            width: 70%;
+            background-color: white;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        div.header{
+            height: 100px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        div.side{
+            height: 100vh;
+            width: 300px;
+            margin-left: auto;
+            float: left;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Ezekiel Gabriel Eumague</h1>
+
+            <button class="button button:hover" onclick="location.href='index.html'">Home</button>
+            <button class="button button:hover" onclick="location.href='portfolio.html'">My Portfolio</button>
+            <button class="button button:hover" onclick="location.href='about.html'">About Me</button>
+      
+            <hr>
+        </div>
+
+        <div class="side">
+            <h3>About me</h3>
+            <img src="assets/Profile.jpg" alt="Profile">
+        </div>
+
+        <br>
+        <p>
+            Hello! My name is Ezekiel Gabriel Eumague! I'm 23 years old, and I was born and raised in Metro Manila
+            before moving here to Cagayan de Oro about 2 years ago.
+        </p>
+
+        <p>
+            My favorite hobbies are drawing and playing video games. Actually, drawing is something I love to do 
+            whenever I have time. In fact, that was my last course prior to moving here and shifting to Information 
+            Technology.
+        </p>
+    </div>
+
+</body>
+</html>
